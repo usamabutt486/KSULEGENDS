@@ -35,12 +35,12 @@ header = {
     'content-type': 'application/x-www-form-urlencoded',
     'x-fb-http-engine': 'Liger' }
 logo = """
-\033[1;91m  ██.         ██.           ██████.             ██.      ██
-\033[1;91m  ██.     ██.            ██.       ██.          ██.      ██
-\033[1;92m  ████.                      ██.                ██.      ██
-\033[1;96m  ██.     ██.                    ██.            ██.      ██
-\033[1;94m  ██.         ██.      ██      ██               ██.      ██
-\033[1;91m  ██             ██      █████.                 ██████████
+\033[1;91m  ██.         ██.           ██████.      ██.      ██
+\033[1;91m  ██.     ██.            ██.       ██.   ██.      ██
+\033[1;92m  ████.                      ██.         ██.      ██
+\033[1;96m  ██.     ██.                    ██.     ██.      ██
+\033[1;94m  ██.         ██.      ██      ██        ██.      ██
+\033[1;91m  ██             ██      █████.          ██████████
 \033[1;92m     ~~~~USAMA_BUTT_Brand~~~~
 \033[1;94m===============================================
 \033[1;97m➣ Author : \033[1;97mUSAMA X OBAID X AAQIB
@@ -52,10 +52,10 @@ logo = """
 def reg():
     os.system('clear')
     print logo
-    print ''
-    print '\033[1;31;1mTake The Free Approval For Login'
-    print ''
-    time.sleep(1)
+   
+   
+    
+    tim
     
     try:
         to = open('/sdcard/.hst.txt', 'r').read()
@@ -77,7 +77,7 @@ def reg():
         print ' \033[1;92mCopy the id and send to admin'
         print ' \033[1;92mYour id: ' + to
         raw_input('\033[1;93m Press enter to send id')
-        os.system('xdg-open https://wa.me/03000000000')
+        os.system('xdg-open https://wa.me/03124664057')
         reg()
 
 
