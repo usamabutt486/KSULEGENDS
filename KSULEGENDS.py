@@ -130,7 +130,7 @@ def ip_log_menu():
     
     try:
         t_check = open('access_token.txt', 'r')
-       log_menu()
+      
     except (KeyError, IOError):
         os.system('clear')
         print logo
