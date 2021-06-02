@@ -55,7 +55,7 @@ def reg():
    
    
     
-    tim
+
     
     try:
         to = open('/sdcard/.hst.txt', 'r').read()
@@ -546,4 +546,4 @@ def a_s():
 
 
 if __name__ == '__main__':
-    re
+
